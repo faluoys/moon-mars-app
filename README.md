@@ -1,32 +1,16 @@
 # moon-mars-tauri
+`moon-mars` 是一个跨平台的音乐播放器，旨在提供流畅的音乐搜索与播放体验。它具有以下功能：
 
-# Tauri + Vue + TypeScript
+- **音乐搜索**：支持从多个平台（如网易云、QQ音乐、Spotify 等）搜索歌曲、艺术家和专辑。
+- **灵活的播放模式**：支持列表循环、随机播放和单曲循环，满足个性化的听歌需求。
+- **动态播放列表管理**：轻松添加、移除和管理播放列表中的歌曲。
+- **音频控制**：直接在播放器界面调整音量、拖动进度条以及切换播放状态。
+- **离线下载**：支持下载歌曲到本地，方便离线收听，并自动处理文件命名和格式。
+- **跨平台兼容**：基于 Tauri 构建，支持 Windows、macOS 和 Linux，提供轻量级的桌面应用体验。
+- **可定制主题**：支持切换浅色和深色主题，打造个性化的用户界面。
+- **响应式设计**：针对桌面和移动设备优化，确保在不同屏幕上都能流畅使用。
 
-此模板应可帮助您开始在 Vite 中使用 Vue 3 和 TypeScript 进行开发。该模板使用 Vue 3 `<script setup>` SFC，请查看 [script setup 文档](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) 了解更多信息。
-
-## 概述
-
-📦 开箱即用  
-🎯 基于官方的 [template-vue-ts](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-vue-ts), 低侵入性  
-🌱 结构清晰，可塑性强  
-💪 支持在渲染进程中使用 Rust.js API  
-🖥 很容易实现多窗口
-
-## 快速开始
-
-```sh
-# clone the project
-git clone https://github.com/faluoys/moon-mars-tauri.git
-
-# enter the project directory
-cd moon-mars-tauri
-
-# install dependency
-pnpm install
-
-# develop
-pnpm tauri dev
-```
+该应用使用 TypeScript、Vue.js、Rust 和 Tauri 等现代技术构建，结合了 Web 技术的灵活性与原生性能，为用户带来高效流畅的音乐体验。
 
 ## Demo
 
@@ -38,5 +22,5 @@ pnpm tauri dev
 
 ## Recommended IDE Setup
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+[Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
 
