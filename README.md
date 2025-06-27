@@ -12,13 +12,24 @@
 
 该应用使用 TypeScript、Vue.js、Rust 和 Tauri 等现代技术构建，结合了 Web 技术的灵活性与原生性能，为用户带来高效流畅的音乐体验。
 
+## API 来源说明
+音乐接口API，来自“GD音乐台(music.gdstudio.xyz)”，作者B站：GD-Studio
+
+当前稳定音乐源（动态更新）：netease、kuwo、joox、tidal
+
 ## Demo
 
 ![index](https://github.com/faluoys/moon-mars-tauri/blob/main/demo/index.png?raw=true)
 
-![music](https://github.com/faluoys/moon-mars-tauri/blob/main/demo/music.png?raw=true)
+![music Now playing](https://github.com/faluoys/moon-mars-tauri/blob/main/demo/NowPlaying.png?raw=true)
 
-![photoAlbum](https://github.com/faluoys/moon-mars-tauri/blob/main/demo/photoAlbum.png?raw=true)
+![music My collection](https://github.com/faluoys/moon-mars-tauri/blob/main/demo/MyCollection.png?raw=true)
+
+[//]: # (![music Play history]&#40;https://github.com/faluoys/moon-mars-tauri/blob/main/demo/PlayHistory.png?raw=true&#41;)
+
+![music Play list](https://github.com/faluoys/moon-mars-tauri/blob/main/demo/PlayList.png?raw=true)
+
+![Custom theme](https://github.com/faluoys/moon-mars-tauri/blob/main/demo/CustomTheme.png?raw=true)
 
 ## Recommended IDE Setup
 
