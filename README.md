@@ -132,7 +132,7 @@ pnpm tauri
 项目已接入 Tauri Updater，当前更新清单地址为：
 
 ```text
-https://github.com/faluoys/moon-mars-app/releases/latest/download/latest.json
+https://github.com/faluoys/moon-mars-app/releases
 ```
 
 发布模式采用：
